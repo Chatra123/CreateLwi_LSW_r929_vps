@@ -1,0 +1,2 @@
+#define LSMASHWORKS_REV "929"
+#define LSMASHWORKS_GIT_HASH "fba174b"
