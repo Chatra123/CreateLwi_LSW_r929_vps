@@ -1,0 +1,508 @@
+CreateLwi.o: CreateLwi.c D:/MSYS/local/x86/include/libavformat/avformat.h \
+ D:/MSYS/local/x86/include/libavcodec/avcodec.h \
+ D:/MSYS/local/x86/include/libavutil/samplefmt.h \
+ D:/MSYS/local/x86/include/libavutil/avutil.h \
+ D:/MSYS/local/x86/include/libavutil/common.h \
+ D:/MSYS/local/x86/include/libavutil/attributes.h \
+ D:/MSYS/local/x86/include/libavutil/macros.h \
+ D:/MSYS/local/x86/include/libavutil/version.h \
+ D:/MSYS/local/x86/include/libavutil/avconfig.h \
+ D:/MSYS/local/x86/include/libavutil/mem.h \
+ D:/MSYS/local/x86/include/libavutil/error.h \
+ D:/MSYS/local/x86/include/libavutil/rational.h \
+ D:/MSYS/local/x86/include/libavutil/mathematics.h \
+ D:/MSYS/local/x86/include/libavutil/intfloat.h \
+ D:/MSYS/local/x86/include/libavutil/log.h \
+ D:/MSYS/local/x86/include/libavutil/pixfmt.h \
+ D:/MSYS/local/x86/include/libavutil/attributes.h \
+ D:/MSYS/local/x86/include/libavutil/avutil.h \
+ D:/MSYS/local/x86/include/libavutil/buffer.h \
+ D:/MSYS/local/x86/include/libavutil/cpu.h \
+ D:/MSYS/local/x86/include/libavutil/channel_layout.h \
+ D:/MSYS/local/x86/include/libavutil/dict.h \
+ D:/MSYS/local/x86/include/libavutil/frame.h \
+ D:/MSYS/local/x86/include/libavutil/buffer.h \
+ D:/MSYS/local/x86/include/libavutil/dict.h \
+ D:/MSYS/local/x86/include/libavutil/samplefmt.h \
+ D:/MSYS/local/x86/include/libavutil/log.h \
+ D:/MSYS/local/x86/include/libavutil/pixfmt.h \
+ D:/MSYS/local/x86/include/libavutil/rational.h \
+ D:/MSYS/local/x86/include/libavcodec/version.h \
+ D:/MSYS/local/x86/include/libavutil/version.h \
+ D:/MSYS/local/x86/include/libavformat/avio.h \
+ D:/MSYS/local/x86/include/libavutil/common.h \
+ D:/MSYS/local/x86/include/libavformat/version.h \
+ D:/MSYS/local/x86/include/libswscale/swscale.h \
+ D:/MSYS/local/x86/include/libswscale/version.h \
+ D:/MSYS/local/x86/include/libavutil/imgutils.h \
+ D:/MSYS/local/x86/include/libavutil/pixdesc.h ../common/audio_output.h \
+ ../common/cpp_compat.h lsmashsource.h VapourSynth.h ../common/utils.h \
+ video_output.h ../common/video_output.h ../common/progress.h \
+ ../common/lwlibav_dec.h ../common/lwlibav_video.h \
+ ../common/lwlibav_audio.h ../common/lwindex.h
+lsmashsource.o: lsmashsource.c lsmashsource.h VapourSynth.h \
+ ../common/utils.h
+video_output.o: video_output.c \
+ D:/MSYS/local/x86/include/libavcodec/avcodec.h \
+ D:/MSYS/local/x86/include/libavutil/samplefmt.h \
+ D:/MSYS/local/x86/include/libavutil/avutil.h \
+ D:/MSYS/local/x86/include/libavutil/common.h \
+ D:/MSYS/local/x86/include/libavutil/attributes.h \
+ D:/MSYS/local/x86/include/libavutil/macros.h \
+ D:/MSYS/local/x86/include/libavutil/version.h \
+ D:/MSYS/local/x86/include/libavutil/avconfig.h \
+ D:/MSYS/local/x86/include/libavutil/mem.h \
+ D:/MSYS/local/x86/include/libavutil/error.h \
+ D:/MSYS/local/x86/include/libavutil/rational.h \
+ D:/MSYS/local/x86/include/libavutil/mathematics.h \
+ D:/MSYS/local/x86/include/libavutil/intfloat.h \
+ D:/MSYS/local/x86/include/libavutil/log.h \
+ D:/MSYS/local/x86/include/libavutil/pixfmt.h \
+ D:/MSYS/local/x86/include/libavutil/attributes.h \
+ D:/MSYS/local/x86/include/libavutil/avutil.h \
+ D:/MSYS/local/x86/include/libavutil/buffer.h \
+ D:/MSYS/local/x86/include/libavutil/cpu.h \
+ D:/MSYS/local/x86/include/libavutil/channel_layout.h \
+ D:/MSYS/local/x86/include/libavutil/dict.h \
+ D:/MSYS/local/x86/include/libavutil/frame.h \
+ D:/MSYS/local/x86/include/libavutil/buffer.h \
+ D:/MSYS/local/x86/include/libavutil/dict.h \
+ D:/MSYS/local/x86/include/libavutil/samplefmt.h \
+ D:/MSYS/local/x86/include/libavutil/log.h \
+ D:/MSYS/local/x86/include/libavutil/pixfmt.h \
+ D:/MSYS/local/x86/include/libavutil/rational.h \
+ D:/MSYS/local/x86/include/libavcodec/version.h \
+ D:/MSYS/local/x86/include/libavutil/version.h \
+ D:/MSYS/local/x86/include/libswscale/swscale.h \
+ D:/MSYS/local/x86/include/libswscale/version.h \
+ D:/MSYS/local/x86/include/libavutil/imgutils.h \
+ D:/MSYS/local/x86/include/libavutil/pixdesc.h \
+ D:/MSYS/local/x86/include/libavutil/mem.h lsmashsource.h VapourSynth.h \
+ ../common/utils.h video_output.h ../common/video_output.h
+libavsmash_source.o: libavsmash_source.c \
+ D:/MSYS/local/x86/include/lsmash.h \
+ D:/MSYS/local/x86/include/libavformat/avformat.h \
+ D:/MSYS/local/x86/include/libavcodec/avcodec.h \
+ D:/MSYS/local/x86/include/libavutil/samplefmt.h \
+ D:/MSYS/local/x86/include/libavutil/avutil.h \
+ D:/MSYS/local/x86/include/libavutil/common.h \
+ D:/MSYS/local/x86/include/libavutil/attributes.h \
+ D:/MSYS/local/x86/include/libavutil/macros.h \
+ D:/MSYS/local/x86/include/libavutil/version.h \
+ D:/MSYS/local/x86/include/libavutil/avconfig.h \
+ D:/MSYS/local/x86/include/libavutil/mem.h \
+ D:/MSYS/local/x86/include/libavutil/error.h \
+ D:/MSYS/local/x86/include/libavutil/rational.h \
+ D:/MSYS/local/x86/include/libavutil/mathematics.h \
+ D:/MSYS/local/x86/include/libavutil/intfloat.h \
+ D:/MSYS/local/x86/include/libavutil/log.h \
+ D:/MSYS/local/x86/include/libavutil/pixfmt.h \
+ D:/MSYS/local/x86/include/libavutil/attributes.h \
+ D:/MSYS/local/x86/include/libavutil/avutil.h \
+ D:/MSYS/local/x86/include/libavutil/buffer.h \
+ D:/MSYS/local/x86/include/libavutil/cpu.h \
+ D:/MSYS/local/x86/include/libavutil/channel_layout.h \
+ D:/MSYS/local/x86/include/libavutil/dict.h \
+ D:/MSYS/local/x86/include/libavutil/frame.h \
+ D:/MSYS/local/x86/include/libavutil/buffer.h \
+ D:/MSYS/local/x86/include/libavutil/dict.h \
+ D:/MSYS/local/x86/include/libavutil/samplefmt.h \
+ D:/MSYS/local/x86/include/libavutil/log.h \
+ D:/MSYS/local/x86/include/libavutil/pixfmt.h \
+ D:/MSYS/local/x86/include/libavutil/rational.h \
+ D:/MSYS/local/x86/include/libavcodec/version.h \
+ D:/MSYS/local/x86/include/libavutil/version.h \
+ D:/MSYS/local/x86/include/libavformat/avio.h \
+ D:/MSYS/local/x86/include/libavutil/common.h \
+ D:/MSYS/local/x86/include/libavformat/version.h \
+ D:/MSYS/local/x86/include/libswscale/swscale.h \
+ D:/MSYS/local/x86/include/libswscale/version.h \
+ D:/MSYS/local/x86/include/libavutil/imgutils.h \
+ D:/MSYS/local/x86/include/libavutil/pixdesc.h lsmashsource.h \
+ VapourSynth.h ../common/utils.h video_output.h ../common/video_output.h \
+ ../common/libavsmash.h ../common/libavsmash_video.h
+lwlibav_source.o: lwlibav_source.c \
+ D:/MSYS/local/x86/include/libavformat/avformat.h \
+ D:/MSYS/local/x86/include/libavcodec/avcodec.h \
+ D:/MSYS/local/x86/include/libavutil/samplefmt.h \
+ D:/MSYS/local/x86/include/libavutil/avutil.h \
+ D:/MSYS/local/x86/include/libavutil/common.h \
+ D:/MSYS/local/x86/include/libavutil/attributes.h \
+ D:/MSYS/local/x86/include/libavutil/macros.h \
+ D:/MSYS/local/x86/include/libavutil/version.h \
+ D:/MSYS/local/x86/include/libavutil/avconfig.h \
+ D:/MSYS/local/x86/include/libavutil/mem.h \
+ D:/MSYS/local/x86/include/libavutil/error.h \
+ D:/MSYS/local/x86/include/libavutil/rational.h \
+ D:/MSYS/local/x86/include/libavutil/mathematics.h \
+ D:/MSYS/local/x86/include/libavutil/intfloat.h \
+ D:/MSYS/local/x86/include/libavutil/log.h \
+ D:/MSYS/local/x86/include/libavutil/pixfmt.h \
+ D:/MSYS/local/x86/include/libavutil/attributes.h \
+ D:/MSYS/local/x86/include/libavutil/avutil.h \
+ D:/MSYS/local/x86/include/libavutil/buffer.h \
+ D:/MSYS/local/x86/include/libavutil/cpu.h \
+ D:/MSYS/local/x86/include/libavutil/channel_layout.h \
+ D:/MSYS/local/x86/include/libavutil/dict.h \
+ D:/MSYS/local/x86/include/libavutil/frame.h \
+ D:/MSYS/local/x86/include/libavutil/buffer.h \
+ D:/MSYS/local/x86/include/libavutil/dict.h \
+ D:/MSYS/local/x86/include/libavutil/samplefmt.h \
+ D:/MSYS/local/x86/include/libavutil/log.h \
+ D:/MSYS/local/x86/include/libavutil/pixfmt.h \
+ D:/MSYS/local/x86/include/libavutil/rational.h \
+ D:/MSYS/local/x86/include/libavcodec/version.h \
+ D:/MSYS/local/x86/include/libavutil/version.h \
+ D:/MSYS/local/x86/include/libavformat/avio.h \
+ D:/MSYS/local/x86/include/libavutil/common.h \
+ D:/MSYS/local/x86/include/libavformat/version.h \
+ D:/MSYS/local/x86/include/libswscale/swscale.h \
+ D:/MSYS/local/x86/include/libswscale/version.h \
+ D:/MSYS/local/x86/include/libavutil/imgutils.h \
+ D:/MSYS/local/x86/include/libavutil/pixdesc.h ../common/audio_output.h \
+ ../common/cpp_compat.h lsmashsource.h VapourSynth.h ../common/utils.h \
+ video_output.h ../common/video_output.h ../common/progress.h \
+ ../common/lwlibav_dec.h ../common/lwlibav_video.h \
+ ../common/lwlibav_audio.h ../common/lwindex.h
+../common/utils.o: ../common/utils.c ../common/cpp_compat.h \
+ ../common/utils.h
+../common/qsv.o: ../common/qsv.c ../common/cpp_compat.h \
+ D:/MSYS/local/x86/include/libavcodec/avcodec.h \
+ D:/MSYS/local/x86/include/libavutil/samplefmt.h \
+ D:/MSYS/local/x86/include/libavutil/avutil.h \
+ D:/MSYS/local/x86/include/libavutil/common.h \
+ D:/MSYS/local/x86/include/libavutil/attributes.h \
+ D:/MSYS/local/x86/include/libavutil/macros.h \
+ D:/MSYS/local/x86/include/libavutil/version.h \
+ D:/MSYS/local/x86/include/libavutil/avconfig.h \
+ D:/MSYS/local/x86/include/libavutil/mem.h \
+ D:/MSYS/local/x86/include/libavutil/error.h \
+ D:/MSYS/local/x86/include/libavutil/rational.h \
+ D:/MSYS/local/x86/include/libavutil/mathematics.h \
+ D:/MSYS/local/x86/include/libavutil/intfloat.h \
+ D:/MSYS/local/x86/include/libavutil/log.h \
+ D:/MSYS/local/x86/include/libavutil/pixfmt.h \
+ D:/MSYS/local/x86/include/libavutil/attributes.h \
+ D:/MSYS/local/x86/include/libavutil/avutil.h \
+ D:/MSYS/local/x86/include/libavutil/buffer.h \
+ D:/MSYS/local/x86/include/libavutil/cpu.h \
+ D:/MSYS/local/x86/include/libavutil/channel_layout.h \
+ D:/MSYS/local/x86/include/libavutil/dict.h \
+ D:/MSYS/local/x86/include/libavutil/frame.h \
+ D:/MSYS/local/x86/include/libavutil/buffer.h \
+ D:/MSYS/local/x86/include/libavutil/dict.h \
+ D:/MSYS/local/x86/include/libavutil/samplefmt.h \
+ D:/MSYS/local/x86/include/libavutil/log.h \
+ D:/MSYS/local/x86/include/libavutil/pixfmt.h \
+ D:/MSYS/local/x86/include/libavutil/rational.h \
+ D:/MSYS/local/x86/include/libavcodec/version.h \
+ D:/MSYS/local/x86/include/libavutil/version.h \
+ D:/MSYS/local/x86/include/libavutil/mem.h ../common/decode.h
+../common/libavsmash.o: ../common/libavsmash.c ../common/cpp_compat.h \
+ D:/MSYS/local/x86/include/lsmash.h \
+ D:/MSYS/local/x86/include/libavformat/avformat.h \
+ D:/MSYS/local/x86/include/libavcodec/avcodec.h \
+ D:/MSYS/local/x86/include/libavutil/samplefmt.h \
+ D:/MSYS/local/x86/include/libavutil/avutil.h \
+ D:/MSYS/local/x86/include/libavutil/common.h \
+ D:/MSYS/local/x86/include/libavutil/attributes.h \
+ D:/MSYS/local/x86/include/libavutil/macros.h \
+ D:/MSYS/local/x86/include/libavutil/version.h \
+ D:/MSYS/local/x86/include/libavutil/avconfig.h \
+ D:/MSYS/local/x86/include/libavutil/mem.h \
+ D:/MSYS/local/x86/include/libavutil/error.h \
+ D:/MSYS/local/x86/include/libavutil/rational.h \
+ D:/MSYS/local/x86/include/libavutil/mathematics.h \
+ D:/MSYS/local/x86/include/libavutil/intfloat.h \
+ D:/MSYS/local/x86/include/libavutil/log.h \
+ D:/MSYS/local/x86/include/libavutil/pixfmt.h \
+ D:/MSYS/local/x86/include/libavutil/attributes.h \
+ D:/MSYS/local/x86/include/libavutil/avutil.h \
+ D:/MSYS/local/x86/include/libavutil/buffer.h \
+ D:/MSYS/local/x86/include/libavutil/cpu.h \
+ D:/MSYS/local/x86/include/libavutil/channel_layout.h \
+ D:/MSYS/local/x86/include/libavutil/dict.h \
+ D:/MSYS/local/x86/include/libavutil/frame.h \
+ D:/MSYS/local/x86/include/libavutil/buffer.h \
+ D:/MSYS/local/x86/include/libavutil/dict.h \
+ D:/MSYS/local/x86/include/libavutil/samplefmt.h \
+ D:/MSYS/local/x86/include/libavutil/log.h \
+ D:/MSYS/local/x86/include/libavutil/pixfmt.h \
+ D:/MSYS/local/x86/include/libavutil/rational.h \
+ D:/MSYS/local/x86/include/libavcodec/version.h \
+ D:/MSYS/local/x86/include/libavutil/version.h \
+ D:/MSYS/local/x86/include/libavformat/avio.h \
+ D:/MSYS/local/x86/include/libavutil/common.h \
+ D:/MSYS/local/x86/include/libavformat/version.h \
+ D:/MSYS/local/x86/include/libavutil/mem.h ../common/utils.h \
+ ../common/libavsmash.h ../common/qsv.h ../common/decode.h
+../common/libavsmash_video.o: ../common/libavsmash_video.c \
+ ../common/cpp_compat.h D:/MSYS/local/x86/include/lsmash.h \
+ D:/MSYS/local/x86/include/libavformat/avformat.h \
+ D:/MSYS/local/x86/include/libavcodec/avcodec.h \
+ D:/MSYS/local/x86/include/libavutil/samplefmt.h \
+ D:/MSYS/local/x86/include/libavutil/avutil.h \
+ D:/MSYS/local/x86/include/libavutil/common.h \
+ D:/MSYS/local/x86/include/libavutil/attributes.h \
+ D:/MSYS/local/x86/include/libavutil/macros.h \
+ D:/MSYS/local/x86/include/libavutil/version.h \
+ D:/MSYS/local/x86/include/libavutil/avconfig.h \
+ D:/MSYS/local/x86/include/libavutil/mem.h \
+ D:/MSYS/local/x86/include/libavutil/error.h \
+ D:/MSYS/local/x86/include/libavutil/rational.h \
+ D:/MSYS/local/x86/include/libavutil/mathematics.h \
+ D:/MSYS/local/x86/include/libavutil/intfloat.h \
+ D:/MSYS/local/x86/include/libavutil/log.h \
+ D:/MSYS/local/x86/include/libavutil/pixfmt.h \
+ D:/MSYS/local/x86/include/libavutil/attributes.h \
+ D:/MSYS/local/x86/include/libavutil/avutil.h \
+ D:/MSYS/local/x86/include/libavutil/buffer.h \
+ D:/MSYS/local/x86/include/libavutil/cpu.h \
+ D:/MSYS/local/x86/include/libavutil/channel_layout.h \
+ D:/MSYS/local/x86/include/libavutil/dict.h \
+ D:/MSYS/local/x86/include/libavutil/frame.h \
+ D:/MSYS/local/x86/include/libavutil/buffer.h \
+ D:/MSYS/local/x86/include/libavutil/dict.h \
+ D:/MSYS/local/x86/include/libavutil/samplefmt.h \
+ D:/MSYS/local/x86/include/libavutil/log.h \
+ D:/MSYS/local/x86/include/libavutil/pixfmt.h \
+ D:/MSYS/local/x86/include/libavutil/rational.h \
+ D:/MSYS/local/x86/include/libavcodec/version.h \
+ D:/MSYS/local/x86/include/libavutil/version.h \
+ D:/MSYS/local/x86/include/libavformat/avio.h \
+ D:/MSYS/local/x86/include/libavutil/common.h \
+ D:/MSYS/local/x86/include/libavformat/version.h ../common/utils.h \
+ ../common/video_output.h ../common/libavsmash.h \
+ ../common/libavsmash_video.h ../common/libavsmash_video_internal.h \
+ ../common/decode.h
+../common/lwlibav_dec.o: ../common/lwlibav_dec.c ../common/cpp_compat.h \
+ D:/MSYS/local/x86/include/libavformat/avformat.h \
+ D:/MSYS/local/x86/include/libavcodec/avcodec.h \
+ D:/MSYS/local/x86/include/libavutil/samplefmt.h \
+ D:/MSYS/local/x86/include/libavutil/avutil.h \
+ D:/MSYS/local/x86/include/libavutil/common.h \
+ D:/MSYS/local/x86/include/libavutil/attributes.h \
+ D:/MSYS/local/x86/include/libavutil/macros.h \
+ D:/MSYS/local/x86/include/libavutil/version.h \
+ D:/MSYS/local/x86/include/libavutil/avconfig.h \
+ D:/MSYS/local/x86/include/libavutil/mem.h \
+ D:/MSYS/local/x86/include/libavutil/error.h \
+ D:/MSYS/local/x86/include/libavutil/rational.h \
+ D:/MSYS/local/x86/include/libavutil/mathematics.h \
+ D:/MSYS/local/x86/include/libavutil/intfloat.h \
+ D:/MSYS/local/x86/include/libavutil/log.h \
+ D:/MSYS/local/x86/include/libavutil/pixfmt.h \
+ D:/MSYS/local/x86/include/libavutil/attributes.h \
+ D:/MSYS/local/x86/include/libavutil/avutil.h \
+ D:/MSYS/local/x86/include/libavutil/buffer.h \
+ D:/MSYS/local/x86/include/libavutil/cpu.h \
+ D:/MSYS/local/x86/include/libavutil/channel_layout.h \
+ D:/MSYS/local/x86/include/libavutil/dict.h \
+ D:/MSYS/local/x86/include/libavutil/frame.h \
+ D:/MSYS/local/x86/include/libavutil/buffer.h \
+ D:/MSYS/local/x86/include/libavutil/dict.h \
+ D:/MSYS/local/x86/include/libavutil/samplefmt.h \
+ D:/MSYS/local/x86/include/libavutil/log.h \
+ D:/MSYS/local/x86/include/libavutil/pixfmt.h \
+ D:/MSYS/local/x86/include/libavutil/rational.h \
+ D:/MSYS/local/x86/include/libavcodec/version.h \
+ D:/MSYS/local/x86/include/libavutil/version.h \
+ D:/MSYS/local/x86/include/libavformat/avio.h \
+ D:/MSYS/local/x86/include/libavutil/common.h \
+ D:/MSYS/local/x86/include/libavformat/version.h ../common/utils.h \
+ ../common/lwlibav_dec.h ../common/qsv.h ../common/decode.h
+../common/lwlibav_video.o: ../common/lwlibav_video.c \
+ ../common/cpp_compat.h D:/MSYS/local/x86/include/libavformat/avformat.h \
+ D:/MSYS/local/x86/include/libavcodec/avcodec.h \
+ D:/MSYS/local/x86/include/libavutil/samplefmt.h \
+ D:/MSYS/local/x86/include/libavutil/avutil.h \
+ D:/MSYS/local/x86/include/libavutil/common.h \
+ D:/MSYS/local/x86/include/libavutil/attributes.h \
+ D:/MSYS/local/x86/include/libavutil/macros.h \
+ D:/MSYS/local/x86/include/libavutil/version.h \
+ D:/MSYS/local/x86/include/libavutil/avconfig.h \
+ D:/MSYS/local/x86/include/libavutil/mem.h \
+ D:/MSYS/local/x86/include/libavutil/error.h \
+ D:/MSYS/local/x86/include/libavutil/rational.h \
+ D:/MSYS/local/x86/include/libavutil/mathematics.h \
+ D:/MSYS/local/x86/include/libavutil/intfloat.h \
+ D:/MSYS/local/x86/include/libavutil/log.h \
+ D:/MSYS/local/x86/include/libavutil/pixfmt.h \
+ D:/MSYS/local/x86/include/libavutil/attributes.h \
+ D:/MSYS/local/x86/include/libavutil/avutil.h \
+ D:/MSYS/local/x86/include/libavutil/buffer.h \
+ D:/MSYS/local/x86/include/libavutil/cpu.h \
+ D:/MSYS/local/x86/include/libavutil/channel_layout.h \
+ D:/MSYS/local/x86/include/libavutil/dict.h \
+ D:/MSYS/local/x86/include/libavutil/frame.h \
+ D:/MSYS/local/x86/include/libavutil/buffer.h \
+ D:/MSYS/local/x86/include/libavutil/dict.h \
+ D:/MSYS/local/x86/include/libavutil/samplefmt.h \
+ D:/MSYS/local/x86/include/libavutil/log.h \
+ D:/MSYS/local/x86/include/libavutil/pixfmt.h \
+ D:/MSYS/local/x86/include/libavutil/rational.h \
+ D:/MSYS/local/x86/include/libavcodec/version.h \
+ D:/MSYS/local/x86/include/libavutil/version.h \
+ D:/MSYS/local/x86/include/libavformat/avio.h \
+ D:/MSYS/local/x86/include/libavutil/common.h \
+ D:/MSYS/local/x86/include/libavformat/version.h \
+ D:/MSYS/local/x86/include/libavutil/imgutils.h \
+ D:/MSYS/local/x86/include/libavutil/pixdesc.h ../common/utils.h \
+ ../common/video_output.h ../common/lwlibav_dec.h \
+ ../common/lwlibav_video.h ../common/lwlibav_video_internal.h \
+ ../common/decode.h
+../common/lwlibav_audio.o: ../common/lwlibav_audio.c \
+ ../common/cpp_compat.h D:/MSYS/local/x86/include/libavformat/avformat.h \
+ D:/MSYS/local/x86/include/libavcodec/avcodec.h \
+ D:/MSYS/local/x86/include/libavutil/samplefmt.h \
+ D:/MSYS/local/x86/include/libavutil/avutil.h \
+ D:/MSYS/local/x86/include/libavutil/common.h \
+ D:/MSYS/local/x86/include/libavutil/attributes.h \
+ D:/MSYS/local/x86/include/libavutil/macros.h \
+ D:/MSYS/local/x86/include/libavutil/version.h \
+ D:/MSYS/local/x86/include/libavutil/avconfig.h \
+ D:/MSYS/local/x86/include/libavutil/mem.h \
+ D:/MSYS/local/x86/include/libavutil/error.h \
+ D:/MSYS/local/x86/include/libavutil/rational.h \
+ D:/MSYS/local/x86/include/libavutil/mathematics.h \
+ D:/MSYS/local/x86/include/libavutil/intfloat.h \
+ D:/MSYS/local/x86/include/libavutil/log.h \
+ D:/MSYS/local/x86/include/libavutil/pixfmt.h \
+ D:/MSYS/local/x86/include/libavutil/attributes.h \
+ D:/MSYS/local/x86/include/libavutil/avutil.h \
+ D:/MSYS/local/x86/include/libavutil/buffer.h \
+ D:/MSYS/local/x86/include/libavutil/cpu.h \
+ D:/MSYS/local/x86/include/libavutil/channel_layout.h \
+ D:/MSYS/local/x86/include/libavutil/dict.h \
+ D:/MSYS/local/x86/include/libavutil/frame.h \
+ D:/MSYS/local/x86/include/libavutil/buffer.h \
+ D:/MSYS/local/x86/include/libavutil/dict.h \
+ D:/MSYS/local/x86/include/libavutil/samplefmt.h \
+ D:/MSYS/local/x86/include/libavutil/log.h \
+ D:/MSYS/local/x86/include/libavutil/pixfmt.h \
+ D:/MSYS/local/x86/include/libavutil/rational.h \
+ D:/MSYS/local/x86/include/libavcodec/version.h \
+ D:/MSYS/local/x86/include/libavutil/version.h \
+ D:/MSYS/local/x86/include/libavformat/avio.h \
+ D:/MSYS/local/x86/include/libavutil/common.h \
+ D:/MSYS/local/x86/include/libavformat/version.h \
+ D:/MSYS/local/x86/include/libavresample/avresample.h \
+ D:/MSYS/local/x86/include/libavutil/mathematics.h \
+ D:/MSYS/local/x86/include/libavresample/version.h \
+ D:/MSYS/local/x86/include/libavutil/mem.h \
+ D:/MSYS/local/x86/include/libavutil/opt.h ../common/utils.h \
+ ../common/audio_output.h ../common/resample.h ../common/decode.h \
+ ../common/lwlibav_dec.h ../common/lwlibav_audio.h \
+ ../common/lwlibav_audio_internal.h
+../common/lwindex.o: ../common/lwindex.c ../common/cpp_compat.h \
+ D:/MSYS/local/x86/include/libavformat/avformat.h \
+ D:/MSYS/local/x86/include/libavcodec/avcodec.h \
+ D:/MSYS/local/x86/include/libavutil/samplefmt.h \
+ D:/MSYS/local/x86/include/libavutil/avutil.h \
+ D:/MSYS/local/x86/include/libavutil/common.h \
+ D:/MSYS/local/x86/include/libavutil/attributes.h \
+ D:/MSYS/local/x86/include/libavutil/macros.h \
+ D:/MSYS/local/x86/include/libavutil/version.h \
+ D:/MSYS/local/x86/include/libavutil/avconfig.h \
+ D:/MSYS/local/x86/include/libavutil/mem.h \
+ D:/MSYS/local/x86/include/libavutil/error.h \
+ D:/MSYS/local/x86/include/libavutil/rational.h \
+ D:/MSYS/local/x86/include/libavutil/mathematics.h \
+ D:/MSYS/local/x86/include/libavutil/intfloat.h \
+ D:/MSYS/local/x86/include/libavutil/log.h \
+ D:/MSYS/local/x86/include/libavutil/pixfmt.h \
+ D:/MSYS/local/x86/include/libavutil/attributes.h \
+ D:/MSYS/local/x86/include/libavutil/avutil.h \
+ D:/MSYS/local/x86/include/libavutil/buffer.h \
+ D:/MSYS/local/x86/include/libavutil/cpu.h \
+ D:/MSYS/local/x86/include/libavutil/channel_layout.h \
+ D:/MSYS/local/x86/include/libavutil/dict.h \
+ D:/MSYS/local/x86/include/libavutil/frame.h \
+ D:/MSYS/local/x86/include/libavutil/buffer.h \
+ D:/MSYS/local/x86/include/libavutil/dict.h \
+ D:/MSYS/local/x86/include/libavutil/samplefmt.h \
+ D:/MSYS/local/x86/include/libavutil/log.h \
+ D:/MSYS/local/x86/include/libavutil/pixfmt.h \
+ D:/MSYS/local/x86/include/libavutil/rational.h \
+ D:/MSYS/local/x86/include/libavcodec/version.h \
+ D:/MSYS/local/x86/include/libavutil/version.h \
+ D:/MSYS/local/x86/include/libavformat/avio.h \
+ D:/MSYS/local/x86/include/libavutil/common.h \
+ D:/MSYS/local/x86/include/libavformat/version.h \
+ D:/MSYS/local/x86/include/libavresample/avresample.h \
+ D:/MSYS/local/x86/include/libavutil/mathematics.h \
+ D:/MSYS/local/x86/include/libavresample/version.h \
+ D:/MSYS/local/x86/include/libavutil/pixdesc.h ../common/osdep.h \
+ ../common/utils.h ../common/video_output.h ../common/audio_output.h \
+ ../common/lwlibav_dec.h ../common/lwlibav_video.h \
+ ../common/lwlibav_video_internal.h ../common/lwlibav_audio.h \
+ ../common/lwlibav_audio_internal.h ../common/progress.h \
+ ../common/lwindex.h ../common/decode.h
+../common/video_output.o: ../common/video_output.c ../common/cpp_compat.h \
+ D:/MSYS/local/x86/include/libavutil/opt.h \
+ D:/MSYS/local/x86/include/libavutil/rational.h \
+ D:/MSYS/local/x86/include/libavutil/attributes.h \
+ D:/MSYS/local/x86/include/libavutil/avutil.h \
+ D:/MSYS/local/x86/include/libavutil/common.h \
+ D:/MSYS/local/x86/include/libavutil/macros.h \
+ D:/MSYS/local/x86/include/libavutil/version.h \
+ D:/MSYS/local/x86/include/libavutil/avconfig.h \
+ D:/MSYS/local/x86/include/libavutil/mem.h \
+ D:/MSYS/local/x86/include/libavutil/error.h \
+ D:/MSYS/local/x86/include/libavutil/mathematics.h \
+ D:/MSYS/local/x86/include/libavutil/intfloat.h \
+ D:/MSYS/local/x86/include/libavutil/log.h \
+ D:/MSYS/local/x86/include/libavutil/pixfmt.h \
+ D:/MSYS/local/x86/include/libavutil/dict.h \
+ D:/MSYS/local/x86/include/libavutil/samplefmt.h \
+ D:/MSYS/local/x86/include/libavcodec/avcodec.h \
+ D:/MSYS/local/x86/include/libavutil/samplefmt.h \
+ D:/MSYS/local/x86/include/libavutil/attributes.h \
+ D:/MSYS/local/x86/include/libavutil/avutil.h \
+ D:/MSYS/local/x86/include/libavutil/buffer.h \
+ D:/MSYS/local/x86/include/libavutil/cpu.h \
+ D:/MSYS/local/x86/include/libavutil/channel_layout.h \
+ D:/MSYS/local/x86/include/libavutil/dict.h \
+ D:/MSYS/local/x86/include/libavutil/frame.h \
+ D:/MSYS/local/x86/include/libavutil/buffer.h \
+ D:/MSYS/local/x86/include/libavutil/log.h \
+ D:/MSYS/local/x86/include/libavutil/pixfmt.h \
+ D:/MSYS/local/x86/include/libavutil/rational.h \
+ D:/MSYS/local/x86/include/libavcodec/version.h \
+ D:/MSYS/local/x86/include/libavutil/version.h \
+ D:/MSYS/local/x86/include/libswscale/swscale.h \
+ D:/MSYS/local/x86/include/libswscale/version.h ../common/utils.h \
+ ../common/video_output.h
+../common/decode.o: ../common/decode.c \
+ D:/MSYS/local/x86/include/libavcodec/avcodec.h \
+ D:/MSYS/local/x86/include/libavutil/samplefmt.h \
+ D:/MSYS/local/x86/include/libavutil/avutil.h \
+ D:/MSYS/local/x86/include/libavutil/common.h \
+ D:/MSYS/local/x86/include/libavutil/attributes.h \
+ D:/MSYS/local/x86/include/libavutil/macros.h \
+ D:/MSYS/local/x86/include/libavutil/version.h \
+ D:/MSYS/local/x86/include/libavutil/avconfig.h \
+ D:/MSYS/local/x86/include/libavutil/mem.h \
+ D:/MSYS/local/x86/include/libavutil/error.h \
+ D:/MSYS/local/x86/include/libavutil/rational.h \
+ D:/MSYS/local/x86/include/libavutil/mathematics.h \
+ D:/MSYS/local/x86/include/libavutil/intfloat.h \
+ D:/MSYS/local/x86/include/libavutil/log.h \
+ D:/MSYS/local/x86/include/libavutil/pixfmt.h \
+ D:/MSYS/local/x86/include/libavutil/attributes.h \
+ D:/MSYS/local/x86/include/libavutil/avutil.h \
+ D:/MSYS/local/x86/include/libavutil/buffer.h \
+ D:/MSYS/local/x86/include/libavutil/cpu.h \
+ D:/MSYS/local/x86/include/libavutil/channel_layout.h \
+ D:/MSYS/local/x86/include/libavutil/dict.h \
+ D:/MSYS/local/x86/include/libavutil/frame.h \
+ D:/MSYS/local/x86/include/libavutil/buffer.h \
+ D:/MSYS/local/x86/include/libavutil/dict.h \
+ D:/MSYS/local/x86/include/libavutil/samplefmt.h \
+ D:/MSYS/local/x86/include/libavutil/log.h \
+ D:/MSYS/local/x86/include/libavutil/pixfmt.h \
+ D:/MSYS/local/x86/include/libavutil/rational.h \
+ D:/MSYS/local/x86/include/libavcodec/version.h \
+ D:/MSYS/local/x86/include/libavutil/version.h ../common/decode.h \
+ ../common/qsv.h
+../common/osdep.o: ../common/osdep.c ../common/osdep.h ../common/utils.h

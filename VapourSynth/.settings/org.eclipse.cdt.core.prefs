@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+environment/project/cdt.managedbuild.toolchain.gnu.mingw.base.1498313549/MINGW_HOME/delimiter=;
+environment/project/cdt.managedbuild.toolchain.gnu.mingw.base.1498313549/MINGW_HOME/operation=replace
+environment/project/cdt.managedbuild.toolchain.gnu.mingw.base.1498313549/MINGW_HOME/value=D\:\\MSYS\\mingw
+environment/project/cdt.managedbuild.toolchain.gnu.mingw.base.1498313549/MSYS_HOME/delimiter=;
+environment/project/cdt.managedbuild.toolchain.gnu.mingw.base.1498313549/MSYS_HOME/operation=replace
+environment/project/cdt.managedbuild.toolchain.gnu.mingw.base.1498313549/MSYS_HOME/value=D\:\\MSYS\\home
+environment/project/cdt.managedbuild.toolchain.gnu.mingw.base.1498313549/PATH/delimiter=;
+environment/project/cdt.managedbuild.toolchain.gnu.mingw.base.1498313549/PATH/operation=replace
+environment/project/cdt.managedbuild.toolchain.gnu.mingw.base.1498313549/PATH/value=D\:\\MSYS\\bin;${MINGW_HOME}\\bin;${MSYS_HOME}\\bin;${MSYS_HOME}\\usr\\bin;D\:/file/pleiades/eclipse/jre/bin/../jre/bin/client;D\:/file/pleiades/eclipse/jre/bin/../jre/bin;D\:/file/pleiades/eclipse/jre/bin/../jre/lib/i386;D\:\\dosbin;C\:\\ProgramData\\Oracle\\Java\\javapath;C\:\\Windows\\system32;C\:\\Windows;C\:\\Windows\\System32\\Wbem;C\:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D\:\\file\\PowerShellScript\\;C\:\\Program Files (x86)\\EaseUS\\Todo Backup\\bin;C\:\\Program Files\\nodejs\\;C\:\\Program Files\\Microsoft\\Web Platform Installer\\;C\:\\Program Files\\Microsoft Windows Performance Toolkit\\;C\:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C\:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C\:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C\:\\Program Files\\Git\\cmd;D\:\\file\\PowerShellScript\\binary;C\:\\Users\\asc\\AppData\\Local\\Programs\\Python\\Python36-32\\Scripts\\;C\:\\Users\\asc\\AppData\\Local\\Programs\\Python\\Python36-32\\;C\:\\Users\\asc\\AppData\\Local\\atom\\bin;C\:\\Users\\asc\\AppData\\Roaming\\npm;C\:\\Program Files (x86)\\EaseUS\\Todo Backup\\bin\\x64\\;D\:\\file\\pleiades\\eclipse
+environment/project/cdt.managedbuild.toolchain.gnu.mingw.base.1498313549/append=true
+environment/project/cdt.managedbuild.toolchain.gnu.mingw.base.1498313549/appendContributed=true
